@@ -64,3 +64,18 @@ let gameCounter = 100
 ++gameCounter;
 console.log(gameCounter);
 
+
+// let price = "100";
+// let quantity = "2";
+
+// let total = price + quantity;
+
+// console.log(total); //this is not correct 
+
+let price = Number("100");
+let quantity = Number("2");
+
+let total = price + quantity;
+
+console.log(total); //this is correct 
+
